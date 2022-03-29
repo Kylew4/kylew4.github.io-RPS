@@ -1,0 +1,26 @@
+.style {
+	text-align: center;
+	background-color: #ccffff;
+}
+#pipe {
+	display:none;
+}
+.press {
+	height: 50px;
+	Width:100px;
+	margin: 30px;
+	font-family:impact;
+	font-size: 20px;
+}
+#result {
+ color: red;
+ font-family: helvetica;
+ 
+}
+h1 {
+	font-family: helvetica;
+}
+#picture {
+	height: 300px;
+	width:300px;
+}

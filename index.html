@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title> Rock Paper Scissors</title>
+		
+        <link rel="stylesheet" href="style/style.css"/>
+		
+	</head>
+	
+	<body class="style">
+	<br/>
+	<img id="picture" src="image/RPS.jpg" title="Rock, Paper, Scissors" alt="rock, paper, scissors image" >
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<h1> Welcome, lets play Rock, Paper, Scissors. Select your choice below: </h1>
+	<br/>
+	<br/>
+	<form id="main" onsubmit="return false">
+		<button id="rock" class="press" onclick="">Rock</button>
+		<button id="paper" class="press" onclick="">Paper</button>
+		<button id="scissors" class="press" onclick="">Scissors</button>
+	</form>
+	
+	<h2 id="result"></h2>
+	<div id="pipe">
+		<button id="retry" onclick="window.location.reload();">Play Again</button>
+		</div>
+		<script src="script/script.js"></script>
+		
+	</body>
+</html>
